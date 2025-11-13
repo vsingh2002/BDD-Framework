@@ -3,7 +3,7 @@ Feature : Search functionality
 Scenario: User search for valid product 
 Given : User opens the application
 When : User enters valid product "HP" into the search box field
-And : User clicks on search button
+When    : User clicks on search button
 Then : User should gets a valid product displayed in search results
 
 Scenario:
