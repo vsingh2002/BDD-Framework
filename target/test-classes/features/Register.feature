@@ -39,11 +39,11 @@ And : User selects privacy policy
 And : User clicks on continue button
 Then : User should get a proper warning about duplicate email 
 
-Scenario: User creates an account without filling any details 
-Given :User navigates to register account page
-When : User do not enter any details into the fields
-And   :Clicks on continue button 
-Then : User should get a proper warning message for every mandatory fields
+Scenario : User creates an account without filling any details 
+Given User navigates to register account page
+When  User do not enter any details into the fields
+And    Clicks on continue button 
+Then  User should get a proper warning message for every mandatory fields
 
 
 
